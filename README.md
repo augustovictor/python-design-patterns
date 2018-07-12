@@ -14,3 +14,12 @@ Elements:
 - Concrete subject
 - AbstractObserver
 - ConcreteObserver
+
+### Command
+Elements:
+
+Benefits:
+- Each command is encapsulated in objects
+- The client does not need to pass any arguments. Just execute the command
+- Easy to add new commands by adding new concrete commands
+- 
