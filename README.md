@@ -2,6 +2,8 @@
 
 ## Behavioral
 ### Strategy
+Defines a set of encapsulated algorithms that can be swapped to carry out a specific behaviour
+
 Elements:
 - Client
 - Context
@@ -9,14 +11,15 @@ Elements:
 - Implementations
 
 ### Observer
-Elements:
+Define a one-to-many dependency between objects so that when one object changes state, all its dependents are notified and updated automatically.
+
 - Abstract Subject
 - Concrete subject
 - AbstractObserver
 - ConcreteObserver
 
 ### Command
-Elements:
+Encapsulate a request as an object, thereby letting you parameterize clients with different requests, queue or log requests, and support undoable operations.
 
 Benefits:
 - Each command is encapsulated in objects
