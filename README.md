@@ -25,4 +25,16 @@ Benefits:
 - Each command is encapsulated in objects
 - The client does not need to pass any arguments. Just execute the command
 - Easy to add new commands by adding new concrete commands
-- 
+
+
+### State
+Allows an object to alter its behaviour when its internal state changes. The object will appear to change its class.
+
+Elements
+- Context: Holds internal state
+- State interface
+- Concrete state
+
+### Template method
+Defines the skeleton of an algorithm in a method, deferring some steps to subclasses. Template Method lets subclasses redefine certain steps of an algorithm without changing the algorithms structure.
+
